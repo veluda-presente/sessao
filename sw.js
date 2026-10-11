@@ -1,6 +1,6 @@
 /* Sessão a Dois: guarda o app no celular para funcionar sem internet.
    Ao publicar uma nova versão do app, aumente o número abaixo (v1, v2, v3...). */
-const VERSAO = 'sessao-a-dois-v1';
+const VERSAO = 'sessao-a-dois-v3';
 
 const ARQUIVOS = [
   './',
@@ -11,13 +11,13 @@ const ARQUIVOS = [
   './icons/maskable-512.png',
   './icons/apple-touch-icon.png',
   './icons/favicon.png',
+  './icons/logo.png',
   './fonts/cg-500.woff2',
   './fonts/cg-600.woff2',
   './fonts/cg-500i.woff2',
   './fonts/cg-600i.woff2',
-  './fonts/mo-400.woff2',
-  './fonts/mo-500.woff2',
-  './fonts/mo-600.woff2'
+  './fonts/jo-400.woff2',
+  './fonts/jo-500.woff2'
 ];
 
 self.addEventListener('install', e => {
